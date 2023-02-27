@@ -5,7 +5,7 @@ import WeatherContext from "../Context/Context"
 
 function CityList() {
     const { cities, city, setCity } = useContext(WeatherContext);
-
+    console.log(city);
   return (
         <Autocomplete
         value={city}
